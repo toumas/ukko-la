@@ -1,0 +1,7 @@
+main > * {
+  text-align: center
+}
+#message-form {
+  display: flex;
+  justify-content: center
+}

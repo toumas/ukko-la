@@ -7,10 +7,13 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='Home' keywords={[`javascript`, `react`, `developer`]} />
+    <SEO
+      title='Home'
+      keywords={[`react`, `front end`, `javascript`, `developer`]}
+    />
     <main>
       <h1>Tuomas Ukkola</h1>
-      <h2>Headbanging Front End Developer</h2>
+      <h2>Front End Developer</h2>
       <div className='row'>
         <div className='col-4 col'>
           <a href='https://github.com/toumas'>GitHub</a>

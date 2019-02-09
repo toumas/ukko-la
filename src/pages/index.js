@@ -25,27 +25,6 @@ const IndexPage = () => (
           <a href='https://codesandbox.io/u/toumas'>CodeSandbox</a>
         </div>
       </div>
-      <div className='row'>
-        <div className='col-12 col'>
-          <form
-            id='message-form'
-            name='contact'
-            method='post'
-            data-netlify='true'
-            data-netlify-honeypot='bot-field'
-            action='#'
-          >
-            <textarea
-              id='message'
-              name='message'
-              maxLength='800'
-              rows={1}
-              placeholder='Write a message...'
-            />
-            <input type='submit' value='Send' />
-          </form>
-        </div>
-      </div>
     </main>
   </Layout>
 );

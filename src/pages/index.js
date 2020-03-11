@@ -4,6 +4,7 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import cv from '../ukkola-tuomas-cv.pdf';
 
 const IndexPage = () => (
   <Layout>
@@ -23,6 +24,11 @@ const IndexPage = () => (
         </div>
         <div className='sm-12 md-4 col'>
           <a href='https://codesandbox.io/u/toumas'>CodeSandbox</a>
+        </div>
+      </div>
+      <div className='row'>
+        <div className='sm-12 col'>
+          <a href={cv} download="ukkola-tuomas-cv.pdf">Download CV</a>
         </div>
       </div>
     </main>
